@@ -1,0 +1,27 @@
+<div>
+	
+<!--	
+	<div class="row">	
+	    <div class="col-lg-12">
+	        <div class="input-group">
+	            <span class="input-group-btn">
+	                <span class="btn btn-primary btn-file">
+	                    Browse... <input type="file" id="file-input" name="files[]"  accept="application/zip">
+	                </span>
+	            </span>
+	            <input id="file-input-field" type="text" class="form-control" readonly>
+	        </div>
+	    </div>
+	</div>
+	-->
+	<div>
+		<input type="file" id="file-input" name="files[]"  accept="application/zip">
+	</div>
+
+
+	<button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa fa-pencil-square-o fa-fw',showLabel:true,disabled:false" data-dojo-attach-point="btnTPK" data-dojo-attach-event="click:onAddTPKLayer">TPK Offline</button>
+	<button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa fa-trash-o fa-fw',showLabel:true,disabled:false" data-dojo-attach-point="btnClear" data-dojo-attach-event="click:onClear">Remove</button>
+<!--
+	<div>Notes: This GeoProcess task requires ESRI login! <a href="https://developers.arcgis.com/rest/elevation/api-reference/trace-downstream.htm" target="_blank">See here</a></div>
+-->
+</div>
